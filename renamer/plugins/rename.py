@@ -35,7 +35,7 @@ async def media(c, m):
         if time_gap:
             return
 
-    file_name = await c.ask(chat_id=m.from_user.id, text="**📍ഇനി ഒരു അടിപൊളി പേര് ഇങ്ങോട് വിട്** <u>**(Extention Required)**<u>\n\n📍**ഈ Process ഒഴിവാക്കണമെങ്കിൽ ക്ലിക്ക്** <u>**Cancel**</u>✅️👉/Cancel", filters=filters.text)
+    file_name = await c.ask(chat_id=m.from_user.id, text="Send me the New FileName for this file or send /cancel to stop", filters=filters.text)
     await file_name.delete()
     await file_name.request.delete()
     new_file_name = file_name.text
@@ -72,7 +72,7 @@ async def media(c, m):
         file_location = await m.download(
                             file_name=download_location,
                             progress=progress_bar,
-                            progress_args=("Progress:", start_time, send_message)
+                            progress_args=("Downloading:", start_time, send_message)
                         )
     except Exception as e:
         logger.error(e)
@@ -130,7 +130,7 @@ async def media(c, m):
                 caption=caption,
                 thumb=thumbnail,
                 progress=progress_bar,
-                progress_args=("📤UPLOADING📤:", start_time, send_message)
+                progress_args=("Uploading:", start_time, send_message)
             )
         except FloodWait as e:
             await asyncio.sleep(e.x)
@@ -148,7 +148,7 @@ async def media(c, m):
                 caption=caption,
                 thumb=thumbnail,
                 progress=progress_bar,
-                progress_args=("📤UPLOADING📤:", start_time, send_message)
+                progress_args=("Uploading:", start_time, send_message)
             )
         except FloodWait as e:
             await asyncio.sleep(e.x)
@@ -166,4 +166,4 @@ async def media(c, m):
 
 async def notify(m, time_gap):
     await asyncio.sleep(time_gap)
-    await m.reply_text("__SENT NEXT TASK BRO🤗I Am Free Bird Now✌️__")
+    await m.reply_text("__You can use me Now__")
