@@ -11,20 +11,38 @@ class TEXT:
     NO_CUSTOM_THUMB_NAIL_FOUND = f"{THUMBS_DOWN_LIGHT_SKIN_TONE}**ഒരു THUMBNAIL ഉം ഇല്ലടെയ് വേറെ സാധനം വിട്** {THUMBS_DOWN_LIGHT_SKIN_TONE}"
     THUMBNAIL_CAPTION = f"{BACKHAND_INDEX_POINTING_UP_LIGHT_SKIN_TONE} **നിങ്ങൾ തന്ന THUMBNAIL**"
 
-    ABOUT = """<b><u>AVAILABLE COMMANDS✅️</b></u>\n\n 👉/start :<u>**Check Bot Alive🤖**</u>\n\n 👉/help :<u>**Avilable Helps🌹**</u>\n\n 👉/about :<u>**Available Commands🗣️**</u>\n\n 👉/mode :<u>**Change Upload Mode(Video Or File)📍**</u>\n\n 👉/showthumbnail :<u>**Check Your Thumbnail📸**</u>\n\n 👉/deletethumbnail :<u>**Delete Your Thumbnail💔**</u>"""
+    ABOUT = """
+╭────[🔅Rᴇɴᴀᴍᴇʀ Bᴏᴛ🔅]───⍟
+│
+├<b>🤖 Bot Name : <a href='https://t.me/RenamerMCfast_bot'>𝙿🌀𝚆𝙴𝚁_𝚁𝙴𝙽𝙰𝙼𝙴®</a></b>
+│
+├<b>📢 Channel : <a href='https://t.me/UrvashiTheaters_Sub'>📣ഉർവശി തീയറ്റേഴ്‌സ്📣</a></b>
+│
+├<b>👥 Version : <a href='https://t.me/RenamerMCfast_bot'>0.9.2 beta</a></b>
+│
+├<b>💢 Source : <a href='https://t.me/BlinderTG'>Click Here</a></b>
+│
+├<b>🌐 Server : <a href='https://heroku.com'>Heroku</a></b>
+│
+├<b>📕 Library : <a href='https://github.com/pyrogram'>Pyrogram 1.2.8</a></b>
+│
+├<b>㊙ Language: <a href='https://www.python.org'>Python 3.9.4</a></b>
+│
+├<b>👨‍💻 Developer : <a href='https://t.me/BlinderTG'>𝔹𝕝𝕚𝕟𝕕𝕖𝕣 𝕋𝔾[𝕆𝔽𝔽𝕃𝕀ℕ𝔼]🇮🇳</a></b>
+│
+├<b>🚸 Powered By : <a href='https://t.me/UrvashiTheaters'>✨️ഉർവശി തീയറ്റേഴ്‌സ്✨️</a></b>
+│
+╰──────[Thanks All😊]───⍟"""
 
     HELP_USER = """**താഴെ എഴുതിയേക്കുന്നെ നല്ലോണം വായിച്ചു നോക്ക്👍**
    
 👉 **ഒരു ഫോട്ടോ സെന്റ് ചെയ്താൽ Thumbnail ആക്കാം✅️**.
 👉 **അത് കഴിഞ്ഞു ഫയൽ ഇങ്ങോട്ട് വിട് നൻബാ🖊️**.
-👉 **അത് കഴിഞ്ഞു പുതിയ നെയിം ഇങ്ങോട്ട് ഇട്ടേരെ. ബാക്കി ഞാൻ ഏറ്റു**😎\n\n 
-**@UrvashiTheaters**
+👉 **അത് കഴിഞ്ഞു പുതിയ നെയിം ഇങ്ങോട്ട് ഇട്ടേരെ. ബാക്കി ഞാൻ ഏറ്റു**😎\n\n<b><u>AVAILABLE COMMANDS✅️</b></u>\n\n 👉/start :<u>**Check Bot Alive🤖**</u>\n\n 👉/help :<u>**Avilable 🛠️ Helps & Commands 🗣️**</u>\n\n 👉/mode :<u>**Change Upload Mode(Video Or File)📍**</u>\n\n 👉/showthumbnail :<u>**Check Your Thumbnail📸**</u>\n\n 👉/deletethumbnail :<u>**Delete Your Thumbnail💔**</u>\n\n
+**@Movies_Club_2019**
 """
 
-    START_TEXT = """🌹<b>ഹായ്</b>🌹 💞{user_mention}💞\n
-**🇮🇳<u>ഞാൻ ഒരു RENAME BOT ആണ്. സ്ഥിര thumbnail സപ്പോർട്ടും ഉണ്ട്</u>✔️**\n
-➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️
-**🇮🇳<u>ഇനി എന്തെങ്കിലും കൂടുതലായി അറിയണമെങ്കിൽ CLICK👉/𝖧𝖾𝗅𝗉</u>**\n
+    START_TEXT = """🌹<b>ഹായ്</b>🌹 💞{user_mention}💞
 ➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️\n
 **©️MᴀɪɴᴛᴀɪɴᴇD Bʏ:** {bot_owner}
 """
@@ -35,4 +53,4 @@ class TEXT:
  
 **GooglePay / Paytm / PhonPay / paypal**
  
-**For Donate: message me On Telegram \n💞@Myfreak123💞**"""
+**For Donate: message me On Telegram \n💞@BlinderTG💞**"""
