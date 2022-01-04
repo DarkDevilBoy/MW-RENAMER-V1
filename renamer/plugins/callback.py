@@ -23,10 +23,10 @@ async def help_cb(c, m):
 @RenamerNs.on_callback_query(filters.regex('^donate$'))
 async def donate(c, m):
     button = [[
-        InlineKeyboardButton(f'{HOUSE_WITH_GARDEN} Home', callback_data='back'),
-        InlineKeyboardButton(f'{ROBOT} About', callback_data='about')
+        InlineKeyboardButton(f'🏡 𝙷𝙾𝙼𝙴', callback_data='back'),
+        InlineKeyboardButton(f'𝙰𝙱𝙾𝚄𝚃 🔎', callback_data='about')
         ],[
-        InlineKeyboardButton(f'{NO_ENTRY} Close', callback_data='close')
+        InlineKeyboardButton(f'🚫 𝙲𝙻𝙾𝚂𝙴 🚫', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     await m.answer()
