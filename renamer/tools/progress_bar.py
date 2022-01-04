@@ -5,6 +5,7 @@ import os
 import math
 import time
 import asyncio
+from scripts import Scripted
 from ..config import Config
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.emoji import *
@@ -19,19 +20,15 @@ async def progress_bar(current, total, status_msg, start, msg):
         time_to_complete = round(((total - current) / speed)) * 1000
         time_to_complete = TimeFormatter(time_to_complete)
         progressbar = "[{0}{1}]".format(\
-            ''.join([f"{BLACK_MEDIUM_SMALL_SQUARE}" for i in range(math.floor(percentage / 10))]),
-            ''.join([f"{WHITE_MEDIUM_SMALL_SQUARE}" for i in range(10 - math.floor(percentage / 10))])
+            ''.join([f"●" for i in range(math.floor(percentage / 10))]),
+            ''.join([f"○" for i in range(10 - math.floor(percentage / 10))])
             )
-        current_message = f"""**{status_msg}** {round(percentage, 2)}%
-{progressbar}
-
-{HOLLOW_RED_CIRCLE} **Speed**: {humanbytes(speed)}/s
-
-{HOLLOW_RED_CIRCLE} **Done**: {humanbytes(current)}
-
-{HOLLOW_RED_CIRCLE} **Size**: {humanbytes(total)}
-
-{HOLLOW_RED_CIRCLE} **Time Left**: {time_to_complete}"""
+        current_message = progressbar + Scripted.PROGRESS_DIS.format(
+                              round(percentage, 2),
+                              humanbytes(present),
+                              humanbytes(total),
+                              humanbytes(speed),
+                              time_to_complete if time_to_complete != '' else "0 s")
         try:
             await msg.edit(text=current_message)
         except:
