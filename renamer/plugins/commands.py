@@ -23,14 +23,12 @@ async def help(c, m, cb=False):
     if cb:
         await m.message.edit(
             text=TEXT.HELP_USER.format(m.from_user.first_name),
-            disable_web_page_preview=True,
-            reply_markup=reply_markup
+            disable_web_page_preview=True
         )
     else:
         await m.reply_text(
             text=TEXT.HELP_USER.format(m.from_user.first_name),
             disable_web_page_preview=True,
-            reply_markup=reply_markup,
             quote=True
         )
 
@@ -51,8 +49,7 @@ async def start(c, m, cb=False):
     if cb:
         await m.message.edit(
             text=TEXT.START_TEXT.format(user_mention=m.from_user.mention, bot_owner=owner.mention(style="md")), 
-            disable_web_page_preview=True,
-            reply_markup=reply_markup
+            disable_web_page_preview=True
         )
     else:
         await m.reply_text(
@@ -80,8 +77,7 @@ async def about(c, m, cb=False):
     if cb:
         await m.message.edit(
             text=TEXT.ABOUT.format(bot_name=me.mention(style='md'), bot_owner=owner.mention(style="md")),
-            disable_web_page_preview=True,
-            reply_markup=reply_markup
+            disable_web_page_preview=True
         )
     else:
         await m.reply_text(
