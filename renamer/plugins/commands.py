@@ -54,7 +54,6 @@ async def start(c, m, cb=False):
         await m.reply_text(
             text=TEXT.START_TEXT.format(user_mention=m.from_user.mention, bot_owner=owner.mention(style="md")), 
             disable_web_page_preview=True
-            quote=True
         ) 
 
 
@@ -80,9 +79,7 @@ async def about(c, m, cb=False):
     else:
         await m.reply_text(
             text=TEXT.ABOUT.format(bot_name=me.mention(style='md'), bot_owner=owner.mention(style="md")),
-            disable_web_page_preview=True,
-            reply_markup=reply_markup,
-            quote=True
+            disable_web_page_preview=True
         )
 
 
