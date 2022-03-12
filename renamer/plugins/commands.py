@@ -28,8 +28,7 @@ async def help(c, m, cb=False):
     else:
         await m.reply_text(
             text=TEXT.HELP_USER.format(m.from_user.first_name),
-            disable_web_page_preview=True,
-            quote=True
+            disable_web_page_preview=True
         )
 
 
