@@ -1,7 +1,6 @@
 class Scripted(object):    
 
 
-    PROGRESS_DIS = """\n
-⍟               ⍟"""
+    PROGRESS_DIS = """ """
 
     
