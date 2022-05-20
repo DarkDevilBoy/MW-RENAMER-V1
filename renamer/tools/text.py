@@ -1,20 +1,18 @@
 from pyrogram.emoji import *
 
 class TEXT:
-    DOWNLOAD_START = f"{INBOX_TRAY}<b>ഡോൺലോഡ് തുടങ്ങി മക്കളെ</b>  {INBOX_TRAY}"
-    UPLOAD_START = f"{OUTBOX_TRAY}<b>അപ്‌ലോഡ് തുടങ്ങി മക്കളെ</b> {OUTBOX_TRAY}"
-    UPLOAD_SUCESS = f"{FOLDED_HANDS}<b><u>ഗ്രൂപ്പിൽ ഒന്ന് ജോയിൻ ചെയ്തേരെ</b></u> {FOLDED_HANDS}\n\n👉 <b>Group: [Movies_Club_2019](https://t.me/Movies_Club_2019)</b>"
+    DOWNLOAD_START = "📣 <b><u>ഡോൺലോഡ് തുടങ്ങി മക്കളെ</b></u> 📣"
+    UPLOAD_START = "📣 <b><u>അപ്‌ലോഡ് തുടങ്ങി മക്കളെ</b></u> 📣"
+    UPLOAD_SUCESS = "🔖 <b><u>ഗ്രൂപ്പിൽ ഒന്ന് ജോയിൻ ചെയ്തേരെ</b></u> 🔖\n\n👉 <b>Group: [ഉർവശി തീയേറ്റർസ്](https://t.me/UrvashiTheaters)</b>"
     BANNED_USER_TEXT = f"{SMIRKING_FACE}**Hey bro,നിനക്ക് ഞാൻ ban തന്നു ഇനി ഈ വഴിക്ക് വരരുത്** {SMIRKING_FACE}."
     NOT_LOGGED_TEXT = f"This bot was only for private use {LOCKED_WITH_KEY}. If you want to use this bot you need to send me correct password in the format /login bot_password"
-    SAVED_CUSTOM_THUMBNAIL = f"{CAMERA_WITH_FLASH}<b>Thumbnail സേവ് ആക്കിട്ടുണ്ട്</b>  {CAMERA_WITH_FLASH}"
-    DELETED_CUSTOM_THUMBNAIL = f"{BROKEN_HEART}<b>Thumbnail ഡിലീറ്റ് ആക്കിട്ടുണ്ട്</b>  {BROKEN_HEART}"
+    SAVED_CUSTOM_THUMBNAIL = "📬 <b>Thumbnail സേവ് ആക്കിട്ടുണ്ട്</b> 📬"
+    DELETED_CUSTOM_THUMBNAIL = 📪 "<b>Thumbnail ഡിലീറ്റ് ആക്കിട്ടുണ്ട്</b> 📪"
     NO_CUSTOM_THUMB_NAIL_FOUND = f"{THUMBS_DOWN_LIGHT_SKIN_TONE}**ഒരു THUMBNAIL ഉം ഇല്ലടെയ് വേറെ സാധനം വിട്** {THUMBS_DOWN_LIGHT_SKIN_TONE}"
     THUMBNAIL_CAPTION = f"{BACKHAND_INDEX_POINTING_UP_LIGHT_SKIN_TONE} **നിങ്ങൾ തന്ന THUMBNAIL**"
 
     ABOUT = """
 ╭────[🔅𝐔𝐑𝐕𝐀𝐒𝐇𝐈 𝐑𝐄𝐍𝐀𝐌𝐄𝐑🔅]───⍟
-│
-├<b>🤖 Bot Name : <a href='https://t.me/RenamerMCfast_bot'>𝙿🌀𝚆𝙴𝚁_𝚁𝙴𝙽𝙰𝙼𝙴®</a></b>
 │
 ├<b>🌐 Server : <a href='https://heroku.com'>Heroku</a></b>
 │
@@ -37,12 +35,10 @@ class TEXT:
 """
 
     START_TEXT = """🌹<b>ഹായ്</b>🌹 💞{user_mention}💞,\n
-📝<b>This is a Telegram Rename Bot by @UrvashiTheaters😇</b>\n
 📝<b>Please send me any File, I can Rename It As Per Your choices to telegram as File/Video</b>\n
-📝<b>Hit /help for more details.. and more thing waiting for u there 😉</b>
-➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️
+📝<b>Click Help for more details.. and more thing waiting for u there 😉</b>\n
+
 **©️MᴀɪɴᴛᴀɪɴᴇD Bʏ:** {bot_owner}
-➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️➖️
 """
 
     DONATE_USER = """**Donation തരണമെന്ന് ചിന്തിച്ച ആ മനസ്സ് ഞാൻ കാണുന്നു💗**
