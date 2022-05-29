@@ -6,8 +6,8 @@ class TEXT:
     UPLOAD_SUCESS = "🔖 <b><u>ഗ്രൂപ്പിൽ ഒന്ന് ജോയിൻ ചെയ്തേരെ</b></u> 🔖\n\n👉 <b>Group: [ഉർവശി തീയേറ്റർസ്](https://t.me/UrvashiTheaters)</b>"
     BANNED_USER_TEXT = f"{SMIRKING_FACE}**Hey bro,നിനക്ക് ഞാൻ ban തന്നു ഇനി ഈ വഴിക്ക് വരരുത്** {SMIRKING_FACE}."
     NOT_LOGGED_TEXT = f"This bot was only for private use {LOCKED_WITH_KEY}. If you want to use this bot you need to send me correct password in the format /login bot_password"
-    SAVED_CUSTOM_THUMBNAIL = "📬 <b>Thumbnail സേവ് ആക്കിട്ടുണ്ട്</b> 📬"
-    DELETED_CUSTOM_THUMBNAIL = 📪 "<b>Thumbnail ഡിലീറ്റ് ആക്കിട്ടുണ്ട്</b> 📪"
+    SAVED_CUSTOM_THUMBNAIL = "<b>📬Thumbnail സേവ് ആക്കിട്ടുണ്ട്</b> 📬"
+    DELETED_CUSTOM_THUMBNAIL = "<b>📪Thumbnail ഡിലീറ്റ് ആക്കിട്ടുണ്ട്</b> 📪"
     NO_CUSTOM_THUMB_NAIL_FOUND = f"{THUMBS_DOWN_LIGHT_SKIN_TONE}**ഒരു THUMBNAIL ഉം ഇല്ലടെയ് വേറെ സാധനം വിട്** {THUMBS_DOWN_LIGHT_SKIN_TONE}"
     THUMBNAIL_CAPTION = f"{BACKHAND_INDEX_POINTING_UP_LIGHT_SKIN_TONE} **നിങ്ങൾ തന്ന THUMBNAIL**"
 
