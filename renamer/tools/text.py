@@ -3,7 +3,7 @@ from pyrogram.emoji import *
 class TEXT:
     DOWNLOAD_START = "📣 <b><u>ഡോൺലോഡ് തുടങ്ങി മക്കളെ</b></u> 📣"
     UPLOAD_START = "📣 <b><u>അപ്‌ലോഡ് തുടങ്ങി മക്കളെ</b></u> 📣"
-    UPLOAD_SUCESS = "🔖 <b><u>ഗ്രൂപ്പിൽ ഒന്ന് ജോയിൻ ചെയ്തേരെ</b></u> 🔖\n\n👉 <b>Group: [ഉർവശി തീയേറ്റർസ്](https://t.me/UrvashiTheaters)</b>"
+    UPLOAD_SUCESS = "🔖 <b><u>ഗ്രൂപ്പിൽ ഒന്ന് ജോയിൻ ചെയ്തേരെ</b></u> 🔖\n\n👉 <b>Group: [𝙼𝙾𝚅𝙸𝙴𝚂 𝚆𝙾𝚁𝙻𝙳](https://t.me/MoviesWorld_Group2)</b>"
     BANNED_USER_TEXT = f"{SMIRKING_FACE}**Hey bro,നിനക്ക് ഞാൻ ban തന്നു ഇനി ഈ വഴിക്ക് വരരുത്** {SMIRKING_FACE}."
     NOT_LOGGED_TEXT = f"This bot was only for private use {LOCKED_WITH_KEY}. If you want to use this bot you need to send me correct password in the format /login bot_password"
     SAVED_CUSTOM_THUMBNAIL = "<b>📬Thumbnail സേവ് ആക്കിട്ടുണ്ട്</b> 📬"
@@ -12,7 +12,7 @@ class TEXT:
     THUMBNAIL_CAPTION = f"{BACKHAND_INDEX_POINTING_UP_LIGHT_SKIN_TONE} **നിങ്ങൾ തന്ന THUMBNAIL**"
 
     ABOUT = """
-╭────[🔅𝐔𝐑𝐕𝐀𝐒𝐇𝐈 𝐑𝐄𝐍𝐀𝐌𝐄𝐑🔅]───⍟
+╭────[🔅𝙼𝚆 𝚁𝙴𝙽𝙰𝙼𝙴𝚁🔅]───⍟
 │
 ├<b>🌐 Server : <a href='https://heroku.com'>Heroku</a></b>
 │
@@ -20,9 +20,9 @@ class TEXT:
 │
 ├<b>㊙ Language: <a href='https://www.python.org'>Python 3.9.4</a></b>
 │
-├<b>👨‍💻 Developer : <a href='https://t.me/PowerOfTG'>Pσɯҽɾ Oϝ T͎͍͐￫G͎͍͐￫🇮🇳</a></b>
+├<b>👨‍💻 Developer : <a href='https://t.me/A4Earner'>ᴏᴡɴᴇʀ</a></b>
 │
-├<b>🚸 Powered By : <a href='https://t.me/UrvashiTheaters'>✨️ഉർവശി തീയറ്റേഴ്‌സ്✨️</a></b>
+├<b>🚸 Powered By : <a href='https://t.me/+R2m54zJe33wxMGRl'>ᴍᴏᴠɪᴇꜱ ᴡᴏʀʟᴅ</a></b>
 │
 ╰──────[😊𝐓𝐡𝐚𝐧𝐤𝐬 𝐀𝐥𝐥😊]───⍟"""
 
@@ -31,7 +31,7 @@ class TEXT:
 👉 **ഒരു ഫോട്ടോ സെന്റ് ചെയ്താൽ Thumbnail ആക്കാം✅️**.
 👉 **അത് കഴിഞ്ഞു ഫയൽ ഇങ്ങോട്ട് വിട് നൻബാ🖊️**.
 👉 **അത് കഴിഞ്ഞു പുതിയ നെയിം ഇങ്ങോട്ട് ഇട്ടേരെ. ബാക്കി ഞാൻ ഏറ്റു**😎\n\n<b><u>AVAILABLE COMMANDS✅️</b></u>\n\n 👉/start :<u>**Check Bot Alive🤖**</u>\n\n 👉/about :<u>**Avilable 🛠️ Helps & Abouts🗣️**</u>\n\n 👉/mode :<u>**Change Upload Mode(Video Or File)📍**</u>\n\n 👉/showthumbnail :<u>**Check Your Thumbnail📸**</u>\n\n 👉/deletethumbnail :<u>**Delete Your Thumbnail💔**</u>\n\n
-**@UrvashiTheaters**
+**@MWDUMP**
 """
 
     START_TEXT = """🌹<b>ഹായ്</b>🌹 💞{user_mention}💞,\n
@@ -47,4 +47,4 @@ class TEXT:
  
 **GooglePay / Paytm / PhonPay / paypal**
  
-**For Donate: message me On Telegram \n💞@BlinderTG💞**"""
+**For Donate: message me On Telegram \n💞@A4Earner💞**"""
