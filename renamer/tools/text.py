@@ -14,6 +14,8 @@ class TEXT:
     ABOUT = """
 ╭────[🔅𝙼𝚆 𝚁𝙴𝙽𝙰𝙼𝙴𝚁🔅]───⍟
 │
+├<b>🤖 Bot Name : <a href='https:/MWFILERENAMERBOT'>𝙿🌀𝚆𝙴𝚁_𝚁𝙴𝙽𝙰𝙼𝙴®</a></b>
+│
 ├<b>🌐 Server : <a href='https://heroku.com'>Heroku</a></b>
 │
 ├<b>📕 Library : <a href='https://github.com/pyrogram'>Pyrogram 1.2.8</a></b>
@@ -35,6 +37,7 @@ class TEXT:
 """
 
     START_TEXT = """🌹<b>ഹായ്</b>🌹 💞{user_mention}💞,\n
+📝<b>This is a Telegram Rename Bot by @MW_BOTS😇</b>\n
 📝<b>Please send me any File, I can Rename It As Per Your choices to telegram as File/Video</b>\n
 📝<b>Click Help for more details.. and more thing waiting for u there 😉</b>\n
 
