@@ -1,7 +1,7 @@
 ## Deploy to Heroku 📤
 Press the following button to deploy in heroku.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sreejithmadmax/Mc-Renamer)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DarkDevilBoy/MW-RENAMER-V1)
 
 Railway
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FSreejithmadmax%2Fadjustingrename&envs=API_HASH%2CAPI_ID%2CAUTH_USERS%2CBOT_TOKEN%2CENV%2CFORCE_SUB%2COWNER_ID%2CTRACE_CHANNEL&optionalEnvs=BOT_TOKEN&API_HASHDesc=Your+API_HASH%2C+Get+it+from+https%3A%2F%2Fmy.telegram.org%2F&API_IDDesc=Your+API_ID%2C+Get+it+from+https%3A%2F%2Fmy.telegram.org%2F&AUTH_USERSDesc=list+of+Auth+user+Id+who+can+access+bot+without+password+and+have+rights+to+use+admin+commands&BOT_TOKENDesc=Get+it+from+%40BotFather&ENVDesc=Set+it+to+anything+to+enable+configuration+by+environment+variables.&FORCE_SUBDesc=A+telegram+channel+username+without+%40+to+force+users+to+join+channel+before+using+bot&OWNER_IDDesc=Your+Telegram+user+id%2C+Get+this+from+%40MissRose_bot&TRACE_CHANNELDesc=A+telegram+channel+or+group+id+to+know+who+are+using+bot&ENVDefault=ANYTHING&referralCode=wJS1Mc)
