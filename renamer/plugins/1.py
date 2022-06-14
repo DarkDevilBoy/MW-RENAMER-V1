@@ -17,7 +17,7 @@ async def force_sub(c, m):
                 return await m.reply_text('Hai Brooh!You Where Banned🤭Kicked From Server Contact Admin🤧',  quote=True)
 
         except UserNotParticipant:
-            button = [[InlineKeyboardButton('🔰 𝙼𝙰𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🔰', url=f'https://t.me/{Config.FORCE_SUB}')]]
+            button = [[InlineKeyboardButton('🔥 𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🔥', url=f'https://t.me/{Config.FORCE_SUB}')]]
             markup = InlineKeyboardMarkup(button)
             return await m.reply_text(text="Hai Brooh!Join My Main Channel🤣Then Use....\n 🤭ഡെയ് പാക്കര ചാനലിൽ Join ചെയ്തിട്ട് ബാക്കി പണിയ്", parse_mode='markdown', reply_markup=markup, quote=True)
 
@@ -37,7 +37,7 @@ async def force_sub(c, m):
                 if m.from_user.id in Config.AUTH_USERS:
                     return await m.reply_text("Forcesub username must be a channel username Not yours or any other users username")
             logger.error(e)
-            return await m.reply_text("Some thing went wrong. Try again and if same issue occur contact [our group](https://t.me/Ns_Bot_supporters)", disable_web_page_preview=True, quote=True)
+            return await m.reply_text("Some thing went wrong. Try again and if same issue occur contact [Channel](https://t.me/MW_BOTS)", disable_web_page_preview=True, quote=True)
 
     await m.continue_propagation()
 
